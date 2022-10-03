@@ -1,6 +1,6 @@
 import colors from '../foundations/colors';
 
-const Checkbox = {
+export const Checkbox = {
   baseStyle: {
     fontWeight: '300',
     control: {
@@ -21,4 +21,3 @@ const Checkbox = {
     colorScheme: 'green',
   },
 };
-export default Checkbox;

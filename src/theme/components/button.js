@@ -1,6 +1,6 @@
 import colors from '../foundations/colors';
 
-const Button = {
+export const Button = {
   baseStyle: {
     fontWeight: '300',
     color: `${colors.base.white}`,
@@ -12,7 +12,6 @@ const Button = {
       px: '32px',
     },
   },
-
   variants: {
     primary: {
       bg: `${colors.brand[50]}`,
@@ -31,4 +30,3 @@ const Button = {
     colorScheme: 'green',
   },
 };
-export default Button;
